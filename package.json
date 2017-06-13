@@ -1,0 +1,28 @@
+{
+  "name": "onedrive-typescript",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "./node_modules/.bin/grunt build",
+    "watch": "./node_modules/.bin/grunt watch",
+    "clear": "./node_modules/.bin/grunt clear",
+    "auth": "./node_modules/.bin/ts-node auth.ts"
+  },
+  "author": "Srar",
+  "license": "ISC",
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-cli": "^1.2.0",
+    "grunt-contrib-clean": "^1.1.0",
+    "grunt-contrib-copy": "^1.0.0",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-ts": "^6.0.0-beta.15",
+    "ts-node": "^3.0.4",
+    "typescript": "^2.3.2"
+  },
+  "dependencies": {
+    "@types/node": "^7.0.18",
+    "@types/superagent": "^2.0.36",
+    "superagent": "^3.5.2"
+  }
+}
